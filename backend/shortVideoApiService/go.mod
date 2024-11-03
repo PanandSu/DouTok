@@ -4,7 +4,7 @@ go 1.22.2
 
 require (
 	buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.34.2-20240717164558-a6c49f84cc0f.2
-	github.com/bytedance/sonic v1.12.2
+	github.com/bytedance/sonic v1.12.3
 	github.com/cloudzenith/DouTok/backend/baseService v0.0.1
 	github.com/cloudzenith/DouTok/backend/gopkgs v0.0.9
 	github.com/cloudzenith/DouTok/backend/shortVideoCoreService v0.1.11
@@ -78,7 +78,7 @@ require (
 	go.opentelemetry.io/otel/trace v1.24.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
-	golang.org/x/arch v0.10.0 // indirect
+	golang.org/x/arch v0.11.0 // indirect
 	golang.org/x/crypto v0.26.0 // indirect
 	golang.org/x/exp v0.0.0-20240808152545-0cdaa3abc0fa // indirect
 	golang.org/x/net v0.28.0 // indirect
@@ -92,3 +92,5 @@ require (
 	gorm.io/driver/mysql v1.5.7 // indirect
 	gorm.io/gorm v1.25.11 // indirect
 )
+
+replace github.com/cloudzenith/DouTok/backend/shortVideoApiService => ../shortVideoApiService

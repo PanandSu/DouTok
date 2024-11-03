@@ -5,7 +5,7 @@ go 1.22.2
 require (
 	github.com/TremblingV5/box v0.0.7
 	github.com/bwmarrin/snowflake v0.3.0
-	github.com/bytedance/sonic v1.12.2
+	github.com/bytedance/sonic v1.12.3
 	github.com/cloudzenith/DouTok/backend/baseService v0.0.0-20240825073919-27961fd4a430
 	github.com/cloudzenith/DouTok/backend/gopkgs v0.0.9
 	github.com/envoyproxy/protoc-gen-validate v1.1.0
@@ -80,13 +80,13 @@ require (
 	go.opentelemetry.io/otel/trace v1.24.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
-	golang.org/x/arch v0.10.0 // indirect
+	golang.org/x/arch v0.11.0 // indirect
 	golang.org/x/crypto v0.26.0 // indirect
 	golang.org/x/exp v0.0.0-20240808152545-0cdaa3abc0fa // indirect
 	golang.org/x/mod v0.20.0 // indirect
 	golang.org/x/net v0.28.0 // indirect
 	golang.org/x/sync v0.8.0 // indirect
-	golang.org/x/sys v0.25.0 // indirect
+	golang.org/x/sys v0.26.0 // indirect
 	golang.org/x/text v0.17.0 // indirect
 	golang.org/x/tools v0.24.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240814211410-ddb44dafa142 // indirect
@@ -95,3 +95,5 @@ require (
 	gorm.io/datatypes v1.1.1-0.20230130040222-c43177d3cf8c // indirect
 	gorm.io/hints v1.1.2 // indirect
 )
+
+replace github.com/cloudzenith/DouTok/backend/shortVideoCoreService => ../shortVideoCoreService

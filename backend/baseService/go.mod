@@ -104,3 +104,5 @@ require (
 	gorm.io/driver/postgres v1.5.2 // indirect
 	gorm.io/hints v1.1.2 // indirect
 )
+
+replace github.com/cloudzenith/DouTok/backend/baseService => ../baseService
